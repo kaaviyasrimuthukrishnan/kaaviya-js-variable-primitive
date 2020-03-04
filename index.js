@@ -93,4 +93,65 @@ console.log(b.toString(8));
 console.log(b.toString(10));
 console.log(b.toString(2));
 
+//----------------------------------------------------------------
 
+//GLOBAL METHODS
+
+//Displays the text
+//output:hello
+console.info("hello");
+
+//Displays the text with a warning in yellow
+//output:no
+console.warn("N0");
+
+//Displays the text with error in red
+//output:no
+console.error("No");
+
+//Displays the text
+//output:hi
+console.log("Hi");
+
+//Displays in table format
+//output:(index)Value(index)Value0"hello"1"Hi"Array(2)
+console.table(["hello","Hi"]);
+
+//displays alert message
+//alert("hi");
+
+//displays the prompt dialog box
+//prompt("Hi")
+
+//displays confirm dialog box
+//confirm("Press here")
+
+//Displays the equivalent number value
+//output:99,null,1,0,99,98
+console.log(Number(99));
+console.log(Number("99 99"));
+console.log(Number(true));
+console.log(Number(false));
+console.log(Number(99.98));
+
+//checks whether it is a number or Not
+//output:false
+console.log(isNaN(54));
+//output:true
+console.log(isNaN("uhu"));
+
+//returns the floating point number
+//output:787.989
+console.log(parseFloat("787.989"));
+
+//returns the integer
+//output:76
+console.log(parseInt("76.989"));
+
+//returns the equivalent string Value
+//output:878
+console.log(String(878));
+
+//checks the condition
+//output:false
+console.log(Boolean(87<8));

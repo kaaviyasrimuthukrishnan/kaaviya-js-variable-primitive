@@ -2,6 +2,8 @@
 //Reference-object(array)
 //Values-Null,Not null,NaN
 
+//STRING METHODS
+
 //Returns the value of the string
 //Output:5
 let a='Hello';
@@ -71,4 +73,24 @@ console.log(a.toUpperCase());
 //removes the white space from both the ends
 //output:hello
 console.log(a.trim());
+//---------------------------------------------------------------
+
+//NUMBER METHODS
+
+let b=24;
+
+//returns the number with specified decimal digits
+//output:24.00
+console.log(b.toFixed(2));
+
+//returns the exponential form of the NUMBER
+//output:2.40e+1
+console.log(b.toExponential(2));
+
+//returns the string value of the NUMBER
+//output:30,24,11000
+console.log(b.toString(8));
+console.log(b.toString(10));
+console.log(b.toString(2));
+
 

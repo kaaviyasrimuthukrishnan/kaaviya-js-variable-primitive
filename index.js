@@ -129,7 +129,7 @@ console.table(["hello","Hi"]);
 //Displays the equivalent number value
 //output:99,null,1,0,99,98
 console.log(Number(99));
-console.log(Number("99 99"));
+console.log(Number('99 99'));
 console.log(Number(true));
 console.log(Number(false));
 console.log(Number(99.98));

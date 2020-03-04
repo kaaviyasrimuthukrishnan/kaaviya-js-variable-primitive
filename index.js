@@ -71,3 +71,4 @@ console.log(a.toUpperCase());
 //removes the white space from both the ends
 //output:hello
 console.log(a.trim());
+

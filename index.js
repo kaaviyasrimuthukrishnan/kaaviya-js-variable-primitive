@@ -155,3 +155,4 @@ console.log(String(878));
 //checks the condition
 //output:false
 console.log(Boolean(87<8));
+
